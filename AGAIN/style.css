@@ -1,0 +1,85 @@
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+button {
+    background-color: #000000;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+/* CSS Variables */
+:root {
+    --body-bg-image: url('Tree.jpg.JPEG');
+    --body-border: 5px solid black;
+    --login-border: 3px solid #4CAF50;
+}
+
+/* General Reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #444;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Background and Border */
+body {
+    background-image: var(--body-bg-image);
+    background-size: cover;
+    border: var(--body-border);
+}
+
+/* Login Border */
+.login-container {
+    border: var(--login-border);
+    border-radius: 5px;
+}

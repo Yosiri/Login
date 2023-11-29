@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to User Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(53, 53, 53, 0);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        h1 {
+            color: #333;
+        }
+    
+        p {
+            color: #666;
+        }
+    
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+<body>
+
+<h1>Welcome to the User Home Page!</h1>
+<p>You have successfully logged in and can now view your account details.</p>
+
+<button id="start-btn">Click to Start Now</button>
+
+<script>
+    document.getElementById('start-btn').addEventListener('click', function() {
+        window.location.href = 'welcome.html';
+    });
+</script>
+
+</body>
+</html>
